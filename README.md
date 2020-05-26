@@ -1,29 +1,37 @@
-# vue-project
+# Vue 框架搭建简易的 Saas 系统
 
-## Project setup
-```
-npm install
-```
+## 前言
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+**初衷**本文主要记录 **Vue.js** 框架搭建一个简易 Web 应用的实践方式。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**适合人群**本文适合对 **Vue.js** 小白较为适合。
 
-### Run your tests
-```
-npm run test
-```
+**内容结构**主要分为 x 个部分：
 
-### Lints and fixes files
-```
-npm run lint
+- 项目构建
+
+> 温馨提示：本文技术选型为 Vue, Express, Mongo, Redis
+
+## 项目构建
+
+### 初始化
+
+```bash
+vue ui
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> 通过可视化构建
+
+### 勾选插件、依赖
+
+- axios 异步请求库
+- element-ui UI 框架
+- uuid 生成唯一标识
+
+### 项目目录
+
+构建项目主要文件目录
+
+## 总结
+
+## 参考文档
