@@ -3,9 +3,10 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const files = require.context('./', false, /\.router.js$/);
+const routes = [];
 
-]
+files.keys().forEach(key => routes.push(...files(key).default));
 
 const router = new VueRouter({
   mode: 'history',

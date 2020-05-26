@@ -30,6 +30,27 @@ vue ui
 
 ### 项目目录
 
+src 目录为项目核心代码目录
+
+```bash
+src
+    ├── main.js 打包的入口文件
+    ├── App.vue 根组件渲染实例
+    ├── api 异步请求接口 API
+    │   ├── article.js
+    │   ├── public.js
+    │   ├── user.js
+    │   └── config 每个请求的接口配置
+    ├── config 存放 baseURL 等配置项
+    ├── plugins Vue 插件
+    ├── router
+    ├── store
+    ├── utils 工具函数库
+    ├── components 组件
+    ├── assets 资源
+    └── views 视图
+```
+
 构建项目主要文件目录
 
 ## 总结
